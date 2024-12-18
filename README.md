@@ -12,50 +12,7 @@ cliente, se tienen los primeros datos:
 
 ## Diagramas
 
-### Diagrama de Clases (Parte 1)
-
-```mermaid
-classDiagram
-    class Vehiculo {
-        - marca: str
-        - modelo: str
-        - nro_ruedas: int
-    }
-
-    class Automovil {
-        - marca: str
-        - modelo: str
-        - nro_ruedas: int
-        - velocidad: float
-        - cilindrada: float
-    }
-
-    Vehiculo <|-- Automovil
-
-    class Particular {
-        - nro_puestos: int
-    }
-
-    class Carga {
-        - carga: float
-    }
-
-    Automovil <|-- Particular
-    Automovil <|-- Carga
-
-    class Bicicleta {
-        - tipo: str
-    }
-
-    Vehiculo <|-- Bicicleta
-
-    class Motocicleta {
-        - nro_radios: int
-        - cuadro: str
-        - motor: str
-    }
-
-    Bicicleta <|-- Motocicleta
+### Diagrama de Clases
 
 ```mermaid
 classDiagram
@@ -108,4 +65,5 @@ classDiagram
     }
 
     RegistroVehiculos --> Vehiculo
-````
+
+```
