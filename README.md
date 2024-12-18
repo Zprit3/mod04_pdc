@@ -9,8 +9,10 @@ cliente, se tienen los primeros datos:
 velocidad y cilindrada.
 En este primer Sprint se acordó con el equipo de desarrollo las siguientes funcionalidades:
 Para esta parte, dividen el sprint en:
+
+
 Parte 1:
-● Diseñe el diagrama de clases según los datos capturados con el cliente.
+# Diseñe el diagrama de clases según los datos capturados con el cliente.
 
 - Solución: 
 
