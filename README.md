@@ -1,16 +1,17 @@
 # SISTEMA DE CONTROL DE VEHÍCULOS
 
 ## DESCRIPCIÓN
-El Equipo de desarrollo de software, se reúne con la finalidad de discutir lo referente al diseño de
+El Equipo de desarrollo de software se reúne con la finalidad de discutir lo referente al diseño de
 un sistema para el control de vehículos en un sistema de peaje. Según lo conversado con el
 cliente, se tienen los primeros datos:
+
 1. Un vehículo contiene los siguientes atributos: marca, modelo y número de ruedas.
 2. Un automóvil contiene los siguientes atributos: marca, modelo, número de ruedas,
-velocidad y cilindrada.
+   velocidad y cilindrada.
 
+## Diagramas
 
-### Diagramas
-
+```mermaid
 classDiagram
     class Vehiculo {
         - marca: str
@@ -52,7 +53,3 @@ classDiagram
     }
 
     Bicicleta <|-- Motocicleta
-
-
-
-
