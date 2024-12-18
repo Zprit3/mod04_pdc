@@ -12,6 +12,8 @@ cliente, se tienen los primeros datos:
 
 ## Diagramas
 
+### Diagrama de Clases (Parte 1)
+
 ```mermaid
 classDiagram
     class Vehiculo {
@@ -55,11 +57,7 @@ classDiagram
 
     Bicicleta <|-- Motocicleta
 
-.
 
-### Diagrama de clases extendido
-
-´´´mermaid
 classDiagram
     class Vehiculo {
         - marca: str
@@ -101,4 +99,13 @@ classDiagram
     }
 
     Bicicleta <|-- Motocicleta
+
+    class RegistroVehiculos {
+        - vehiculos: list
+        + registrar_vehiculo(vehiculo)
+        + consultar_vehiculos()
+        + consultar_por_tipo(tipo)
+    }
+
+    RegistroVehiculos --> Vehiculo
 ```
