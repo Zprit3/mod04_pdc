@@ -14,7 +14,7 @@ cliente, se tienen los primeros datos:
 
 ### Diagrama de Clases (Parte 1)
 
-```mermaid
+````mermaid
 classDiagram
     class Vehiculo {
         - marca: str
@@ -57,7 +57,7 @@ classDiagram
 
     Bicicleta <|-- Motocicleta
 
-
+```mermaid
 classDiagram
     class Vehiculo {
         - marca: str
@@ -108,4 +108,4 @@ classDiagram
     }
 
     RegistroVehiculos --> Vehiculo
-```
+````
